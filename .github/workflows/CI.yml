@@ -1,22 +1,9 @@
 name: CI
-
 on:
   push:
-    branches:
-      - main
+    branches: development
   pull_request:
-    branches:
-      - main
-
-name: Feature Branch Workflow
-
-on:
-  push:
-    branches: [ feature ]
-  pull_request:
-    branches: [ feature ]
-
-
+    branches: development
 
 jobs:
   # This will build the Java application
